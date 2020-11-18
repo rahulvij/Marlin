@@ -131,7 +131,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "IIIP_0828"
+#define CUSTOM_MACHINE_NAME "IIIP_1116"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -499,9 +499,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  14.50
-    #define DEFAULT_Ki   0.65
-    #define DEFAULT_Kd 79.00
+    #define DEFAULT_Kp 19.93
+    #define DEFAULT_Ki 1.06
+    #define DEFAULT_Kd 93.28
   #endif
 #endif // PIDTEMP
 
